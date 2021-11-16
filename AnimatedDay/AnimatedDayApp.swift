@@ -11,7 +11,7 @@ import SwiftUI
 struct AnimatedDayApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AnimatedView()
         }
     }
 }

@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		88B1C722274412B5004E8949 /* AnimatedDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1C721274412B5004E8949 /* AnimatedDayApp.swift */; };
-		88B1C724274412B5004E8949 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1C723274412B5004E8949 /* ContentView.swift */; };
 		88B1C726274412B7004E8949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B1C725274412B7004E8949 /* Assets.xcassets */; };
 		88B1C729274412B7004E8949 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88B1C728274412B7004E8949 /* Preview Assets.xcassets */; };
 		88B1C732274413CF004E8949 /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1C731274413CF004E8949 /* SunView.swift */; };
+		88B1C73427442C3C004E8949 /* AnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1C73327442C3C004E8949 /* AnimatedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88B1C71E274412B5004E8949 /* AnimatedDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B1C721274412B5004E8949 /* AnimatedDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedDayApp.swift; sourceTree = "<group>"; };
-		88B1C723274412B5004E8949 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88B1C725274412B7004E8949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88B1C728274412B7004E8949 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88B1C731274413CF004E8949 /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
+		88B1C73327442C3C004E8949 /* AnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				88B1C721274412B5004E8949 /* AnimatedDayApp.swift */,
-				88B1C723274412B5004E8949 /* ContentView.swift */,
+				88B1C73327442C3C004E8949 /* AnimatedView.swift */,
 				88B1C731274413CF004E8949 /* SunView.swift */,
 				88B1C725274412B7004E8949 /* Assets.xcassets */,
 				88B1C727274412B7004E8949 /* Preview Content */,
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B1C724274412B5004E8949 /* ContentView.swift in Sources */,
 				88B1C732274413CF004E8949 /* SunView.swift in Sources */,
+				88B1C73427442C3C004E8949 /* AnimatedView.swift in Sources */,
 				88B1C722274412B5004E8949 /* AnimatedDayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
